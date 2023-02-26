@@ -1,23 +1,26 @@
-import { useEffect, useState } from 'react';
-import './intro-styles.css';
+import React from 'react';
+import './IntroContainer.css';
 
-
-function Introduction() {
-  const [showBox, setShowBox] = useState(false);
-
-  useEffect(() => {
-    setShowBox(true);
-  }, []);
-
+function IntroContainer() {
+  const styles = {
+    fontFamily: 'Consolas, sans-serif',
+    fontSize: '24px',
+    fontWeight: 'light',
+    color: 'black',
+    display: 'flex',
+    textAlign: 'center',
+    justifyContent: 'center',
+    height: '100'
+  };
   return (
     <div className="intro-container">
-      <div
-        className={`box ${showBox ? 'show' : ''}`}
-        onAnimationEnd={() => setShowBox(false)}
-      >
-        <h1>ZEYNEP</h1>
+      <div className="intro-box">
+        <div className="intro-box-line"></div>
+        <div style = {styles} className="intro-box-text">ZEYNEP</div>
       </div>
     </div>
   );
 }
+
+export default IntroContainer;
 

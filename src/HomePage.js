@@ -1,10 +1,11 @@
 import React from 'react';
+import IntroContainer from './IntroContainer';
+
 
 function HomePage() {
   return (
     <div>
-      <h1>Welcome to My Homepage</h1>
-      <p>This is my awesome React-based homepage!</p>
+      <IntroContainer />
     </div>
   );
 }
