@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/zeynep-toprakbasti-honors-portfolio/static/css/main.77718d0f.css",
-    "main.js": "/zeynep-toprakbasti-honors-portfolio/static/js/main.1e30a436.js",
+    "main.css": "/zeynep-toprakbasti-honors-portfolio/static/css/main.aa44002c.css",
+    "main.js": "/zeynep-toprakbasti-honors-portfolio/static/js/main.60a7f858.js",
     "static/js/787.da7813d5.chunk.js": "/zeynep-toprakbasti-honors-portfolio/static/js/787.da7813d5.chunk.js",
+    "static/media/aura.jpg": "/zeynep-toprakbasti-honors-portfolio/static/media/aura.9302627b178b35213c1a.jpg",
     "index.html": "/zeynep-toprakbasti-honors-portfolio/index.html",
-    "main.77718d0f.css.map": "/zeynep-toprakbasti-honors-portfolio/static/css/main.77718d0f.css.map",
-    "main.1e30a436.js.map": "/zeynep-toprakbasti-honors-portfolio/static/js/main.1e30a436.js.map",
+    "main.aa44002c.css.map": "/zeynep-toprakbasti-honors-portfolio/static/css/main.aa44002c.css.map",
+    "main.60a7f858.js.map": "/zeynep-toprakbasti-honors-portfolio/static/js/main.60a7f858.js.map",
     "787.da7813d5.chunk.js.map": "/zeynep-toprakbasti-honors-portfolio/static/js/787.da7813d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77718d0f.css",
-    "static/js/main.1e30a436.js"
+    "static/css/main.aa44002c.css",
+    "static/js/main.60a7f858.js"
   ]
 }
