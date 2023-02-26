@@ -64,7 +64,7 @@ a { text-decoration: none; }
 }
 
 .cherry_box {
-  background-color: #7f4456;
+  background-color: #F0D2EA;
   height: 200px;
   padding: 20px;
   text-align: center;
@@ -74,7 +74,7 @@ a { text-decoration: none; }
 }
 
 .big_cherry_box {
-  background-color: #7f4456;
+  background-color: #F0D2EA;
   height: 1000px;
   padding: 20px;
   text-align: center;
@@ -85,7 +85,7 @@ a { text-decoration: none; }
 }
 
 .nature_box {
-  background-color: #95a991;
+  background-color: #E2F5B1;
   height: 200px;
   padding: 20px;
   text-align: center;
@@ -94,7 +94,7 @@ a { text-decoration: none; }
 }
 
 .big_nature_box {
-  background-color: #95a991;
+  background-color: #E2F5B1;
   height: 1000px;
   padding: 20px;
   text-align: center;

@@ -3,7 +3,7 @@ import './IntroContainer.css';
 
 function IntroContainer() {
   const styles = {
-    fontFamily: 'Consolas, sans-serif',
+    fontFamily: 'Andale Mono, sans-serif',
     fontSize: '24px',
     fontWeight: 'light',
     color: 'black',

@@ -1,0 +1,48 @@
+.TitleStyle
+{
+	color: var(--panel-foreground);
+
+	top: 9vh;
+	left: 50%;
+	transform: translate(-50%);
+
+	
+	position: absolute;
+	user-select: none;
+
+	display: flex;
+	align-items: flex-end;
+}
+
+.AnimatedStyle
+{
+	opacity: 0.1;
+	animation: TitleAnim 3s;
+}
+
+.TimelineStyle
+{
+	font-weight: 300;
+	font-size: 3rem;
+
+	margin: 0;
+	margin-right: 5px;
+}
+
+.BubblesStyle
+{
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+@keyframes TitleAnim {
+	0% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.1;
+	}
+}

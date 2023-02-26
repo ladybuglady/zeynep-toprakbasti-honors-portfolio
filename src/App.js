@@ -4,14 +4,18 @@ import { useEffect } from 'react';
 import backgroundImage from './media/aura.jpg';
 import './App.css'; 
 import { useRef, useState } from "react";
+import Editor from './timeline/src/components/pages/editor'
+import Tutorial from './timeline/src/components/pages/tutorial'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 
 
 function App() {
   const styles = {
+    fontFamily: 'Andale Mono, sans-serif',
     backgroundImage: `url(${backgroundImage})`,
     height: '100vh',
     backgroundSize: 'cover',
-    backgroundPosition: 'center',
+    backgroundPosition: 'center'
   };
   useEffect(() => {
     document.title = "ZT Portfolio"
@@ -77,8 +81,10 @@ function App() {
       <div ref={cwRef} id="coursework" className="big_cherry_box"></div>
       <div ref={resRef} id="research" className="big_nature_box"></div>
       <div ref={lifeRef} id="life" className="big_moon_box"></div>
-
-    </div></div>
+      <Editor></Editor>
+    </div>
+   
+    </div>
   );
 }
 
