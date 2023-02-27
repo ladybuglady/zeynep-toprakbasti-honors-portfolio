@@ -1,3 +1,4 @@
+import React from 'react';
 import { Info } from 'react-bootstrap-icons'
 import CornerButtonContainer from '../../atoms/corner_button_container'
 

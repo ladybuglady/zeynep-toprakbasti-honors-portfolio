@@ -1,3 +1,4 @@
+import React from 'react';
 import style from './style.module.css'
 const { TitleStyle, TimelineStyle, BubblesStyle, AnimatedStyle } = style
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import ButtonContainer from '../../atoms/button_container'
 import ColorSelectorStyle from './style.module.css'
 

@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import { ArrowReturnLeft } from 'react-bootstrap-icons'
 import CornerButtonContainer from '../../atoms/corner_button_container'
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import { FileImage } from "react-bootstrap-icons"
 import ButtonContainer from "../../atoms/button_container"
 

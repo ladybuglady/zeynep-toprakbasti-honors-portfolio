@@ -63,13 +63,18 @@ a { text-decoration: none; }
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .cherry_box {
   background-color: #F0D2EA;
   height: 200px;
   padding: 20px;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: black;
   outline: none;
 }
 
@@ -89,7 +94,7 @@ a { text-decoration: none; }
   height: 200px;
   padding: 20px;
   text-align: center;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -108,7 +113,7 @@ a { text-decoration: none; }
   height: 200px;
   padding: 20px;
   text-align: center;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 

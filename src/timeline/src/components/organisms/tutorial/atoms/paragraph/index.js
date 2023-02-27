@@ -1,4 +1,5 @@
 import ParagraphStyle from './style.module.css'
+import React, { Component }  from 'react';
 
 /**
  * Adds a div with left padding

@@ -1,4 +1,5 @@
 import ContainerStyle from './style.module.css'
+import React, { Component }  from 'react';
 
 /**
  * Contains buttons for toolbar with desired padding and invisible style
