@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/zeynep-toprakbasti-honors-portfolio/static/css/main.aa44002c.css",
-    "main.js": "/zeynep-toprakbasti-honors-portfolio/static/js/main.60a7f858.js",
-    "static/js/787.da7813d5.chunk.js": "/zeynep-toprakbasti-honors-portfolio/static/js/787.da7813d5.chunk.js",
+    "main.css": "/zeynep-toprakbasti-honors-portfolio/static/css/main.ec638807.css",
+    "main.js": "/zeynep-toprakbasti-honors-portfolio/static/js/main.1464958a.js",
+    "static/js/496.417839f9.chunk.js": "/zeynep-toprakbasti-honors-portfolio/static/js/496.417839f9.chunk.js",
+    "static/media/Screen Shot 2023-02-27 at 2.34.24 AM.png": "/zeynep-toprakbasti-honors-portfolio/static/media/Screen Shot 2023-02-27 at 2.34.24 AM.35616de420ee28bc7a59.png",
+    "static/media/Screen Shot 2023-02-27 at 2.33.19 AM.png": "/zeynep-toprakbasti-honors-portfolio/static/media/Screen Shot 2023-02-27 at 2.33.19 AM.3ae0f7478d89d9bf635d.png",
+    "static/media/Screen Shot 2023-02-27 at 2.35.45 AM.png": "/zeynep-toprakbasti-honors-portfolio/static/media/Screen Shot 2023-02-27 at 2.35.45 AM.18812243fabf5898edc1.png",
     "static/media/aura.jpg": "/zeynep-toprakbasti-honors-portfolio/static/media/aura.9302627b178b35213c1a.jpg",
     "index.html": "/zeynep-toprakbasti-honors-portfolio/index.html",
-    "main.aa44002c.css.map": "/zeynep-toprakbasti-honors-portfolio/static/css/main.aa44002c.css.map",
-    "main.60a7f858.js.map": "/zeynep-toprakbasti-honors-portfolio/static/js/main.60a7f858.js.map",
-    "787.da7813d5.chunk.js.map": "/zeynep-toprakbasti-honors-portfolio/static/js/787.da7813d5.chunk.js.map"
+    "main.ec638807.css.map": "/zeynep-toprakbasti-honors-portfolio/static/css/main.ec638807.css.map",
+    "main.1464958a.js.map": "/zeynep-toprakbasti-honors-portfolio/static/js/main.1464958a.js.map",
+    "496.417839f9.chunk.js.map": "/zeynep-toprakbasti-honors-portfolio/static/js/496.417839f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa44002c.css",
-    "static/js/main.60a7f858.js"
+    "static/css/main.ec638807.css",
+    "static/js/main.1464958a.js"
   ]
 }
