@@ -14,23 +14,13 @@ function IntroContainer() {
   };
   return (
     <div className="intro-container">
-      <div className="intro-box">
-        <div className="intro-box-line"></div>
-       
-        <div style = {styles} className="intro-box-text">
-          <div className="grid"> 
-            <div><h5>Zeynep Toprakbasti</h5>
-            <h7>University of Washington Honors Portfolio</h7>
-            <h8>B.S. in Computer Science, Minor in DXARTS</h8></div>
+      <div className="grid2" style={{fontSize: 14}}> 
+        <div> <img src={require("./media/me.png")} style={{height:300}}/></div>
 
-            <div> <img src={require("./media/me.png")} style={{height:500}}/></div>
-
-          
-          </div>
-          
-          
-          
-          </div>
+        <div><h2>Zeynep Toprakbasti</h2>
+        <h3>B.S. in Computer Science, Minor in DXARTS</h3>
+        <div  className='essay' > University of Washington Honors Portfolio</div>
+        </div>
       </div>
     </div>
   );

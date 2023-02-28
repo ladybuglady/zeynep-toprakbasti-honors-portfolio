@@ -155,3 +155,9 @@ a { text-decoration: none; }
   text-align: left;
   font-style: italic;
 }
+
+.ls {
+  padding-right: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+}

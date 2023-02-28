@@ -13,7 +13,7 @@ function App() {
   const styles = {
     fontFamily: 'Andale Mono, sans-serif',
     backgroundImage: `url(${backgroundImage})`,
-    height: '100vh',
+    height: '200vh',
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   };
@@ -66,6 +66,15 @@ function App() {
     <div style={styles}>
     <div>
       <HomePage />
+      <div className="ls" > <h3>Learning Statement</h3>
+        <p> I came to the UW with a very specific goal in mind: I wanted to be a brain researcher. I am an artist at heart, and extremely sensitive to how we decide to make sense of the world. 
+
+As an artist, I was keenly interested in the human brain: How it learns, thinks, creates, and expresses. I wanted to explore intelligence and creativity from a computational lens. My interests led me to dive into the world of neurotechnology and artificial intelligence. Throughout my undergrad, these interests solidified with more classes and research.
+
+My undergraduate coursework played a significant role in shaping my passions within computer science. Even though I had experience working with neural networks for my research, my Machine Learning and Deep Learning classes equipped me with the architectural knowledge of these technologies. Finally, in my Neural Engineering class, I was completely enthralled by the technical processes by which high-level observable phenomena (such as enjoying music, or experiencing depression) could be extracted and measured from brain signals. However, the most important lesson I learned via my coursework was the importance of going at a pace that allowed me to solidify the foundations. The foundations can be tedious, and I was tempted to skip ahead quickly. But I realized that the basics will help inform the more specialized areas of my studies immensely.
+
+As much as this journey has been about exploring all the ways that I can dissect the computer inside of our heads, I have also learned a lot about myself. Research and discovery are what drive me. With a mastered grace, I welcome the uncomfortable unknowns and uncertainties of research into my life confidently. This is because the greatest lesson I have taken away from my undergraduate career is to not define myself with what I already know, but to define myself with the perseverance I use to learn new things.</p>
+        </div>
       <div className="grid">
         <a onClick={handleClick1} href="#">
         <div className="cherry_box"> Coursework </div>
