@@ -100,6 +100,7 @@ function App() {
           <CSE340/>
           <Prison/>
           <DXARTS200/>
+          <CSE446/>
       </div>
       </div>
       <div ref={resRef} id="research" className="big_nature_box"></div>
@@ -244,7 +245,6 @@ const Prison = () => {
       <audio controls="controls"> 
       <source src={require("./media/First Step Act Podcast (Final).mp3")} type="audio/mp3" /> 
       </audio>
-           
            </div></Paper>
     </div>
   );
@@ -252,14 +252,37 @@ const Prison = () => {
 
 const DXARTS200 = () => {
   return (
-    <div style={card("1200px")}>
+    <div style={card("200px")}>
       <Paper style={paperstyle}>
-      <div> <h3> DXARTS 200 - Introduction to Digital Art & Experimental Media. </h3> <h4> Winter 2020 </h4> 
+      <div> <h3> Introduction to Digital Art & Experimental Media (DXARTS 200) </h3> <h4> Winter 2021 </h4> 
       <p> During the Winter Quarter of my Sophomore year, I was introduced to the new field of Experimental Media and I instantly fell in love.
         At the intersection of art and technology, the UW's DXARTS program offered me an exciting and novel perspective into combining my two passions.
-        I immidiately decided that I wanted to pursue the minor which was open to undergraduates. 
+        I immidiately decided that I wanted to pursue the minor which was open to undergraduates. For the final report, I completed a proposal for a
+        fictional project that would utilize concepts we had learned in class.
       </p>
            
+           </div></Paper>
+    </div>
+  );
+};
+
+
+const CSE446 = () => {
+  return (
+    <div style={card("800px")}>
+      <Paper style={paperstyle}>
+      <div> <h3> Introduction to Machine Learning (CSE446) </h3> <h4> Spring 2021 </h4> 
+      <p> I concluded my sophomore year with an introductory machine learning course. This course is what finally opened the gates of the mysterious world of 
+        artificial intelligence for me, and I was hooked. I knew I wanted to spend my time diving deeper into this field of study, so the concepts
+        learned in this course became a springboard for me for my research teaching opportunities to come.
+      </p>
+      <p> While I very much enjoyed the class, it was extremely intensive. The theory sections of the class were much more difficult than the programming and experimental sections.
+        I certainly struggled a lot with proving theorems that seemed very abstracted away from reality and whose meaning and applications were less obvious. Ultimately though, machine
+        learning is a subject that seems grounded more in experiment. With incomprehinsibly large datasets, the computations that go into complex structures like neural nets are rarely
+        predictable (which makes machine learning extremely powerful using Big Data in our current society). 
+      </p>
+      <p>Below is a screenshot of experimental results from using Principal Component Analysis to sort handwritten numbers. </p>
+      <img src={require("./media/Screen Shot 2023-02-28 at 12.54.55 AM.png")} style={{width:500}}/>
            </div></Paper>
     </div>
   );

@@ -12,6 +12,11 @@
   animation: growBox 2s forwards;
 }
 
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 @keyframes growBox {
   0% {
     height: 0;
