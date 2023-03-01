@@ -84,7 +84,7 @@ As much as this journey has been about exploring all the ways that I can dissect
           <div className="nature_box">Research</div>
         </a>
         <a onClick={handleClick3} href="#">
-          <div className="moon_box">Life</div>
+          <div className="moon_box">Takeaways</div>
         </a>
       </div>
       <div id="scrollview-container"></div>
@@ -176,7 +176,16 @@ As much as this journey has been about exploring all the ways that I can dissect
         </div>
         
       </div>
-      <div ref={lifeRef} id="life" className="big_moon_box"></div>
+      <div ref={lifeRef} id="life" className="big_moon_box">
+      <div className="blogpost"  style={{fontSize: 14, color: "white"}} > 
+      <h2> Key Takeaways from My Undergraduate Experience </h2>
+      <h4> ✧･ﾟ: *✧･ﾟ:*ˏˋ°•*⁀➷ There is honor in doing the simple tasks.</h4>
+      <h4> Follow the heart over the mind. ˚₊· ͟͟͞͞➳❥ </h4>
+      <h6> ✧･ﾟ: *✧･ﾟ:* and finally... ✧･ﾟ: *✧･ﾟ:*</h6>
+      <h4> ೄྀ࿐ ˊˎ- You have to believe in yourself even when it feels like nobody else does. </h4>
+      </div>
+      </div>
+
     </div>
     </div>
   );
