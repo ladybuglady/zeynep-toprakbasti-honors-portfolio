@@ -13,7 +13,7 @@ function App() {
   const styles = {
     fontFamily: 'Andale Mono, sans-serif',
     backgroundImage: `url(${backgroundImage})`,
-    height: '200vh',
+    height: '170vh',
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   };
@@ -61,6 +61,7 @@ function App() {
     }
     lifeRef.current.scrollIntoView({ behavior: "smooth" });
   };
+
 
   return (
     <div style={styles}>
@@ -110,9 +111,71 @@ As much as this journey has been about exploring all the ways that I can dissect
           <Prison/>
           <DXARTS200/>
           <CSE446/>
+          <Story/>
+          <Neural/>
+          <CSE490/>
       </div>
       </div>
-      <div ref={resRef} id="research" className="big_nature_box"></div>
+      <div ref={resRef} id="research" className="big_nature_box">
+        <div className="ls" style={{fontSize: 14, color: "black"}} > 
+        <h3>My Departmental Honors Thesis is on the research that I have spent working for most of my 
+        undergraduate education: Self-Supervised Machine Learning on Electrocorticography Data.  </h3>
+        <p> Electrocorticography (ECoG) data is electrical activity recorded directly from the brain. Self-
+          Supervised Machine Learning is a type of machine learning that automates the data labeling procedure so that
+          the learning algorithm is more independent. Here, I will detail my journey learning new things throughout this topic.</p>
+        </div>
+
+        <div className="blogpost"> 
+        <div className="bloggrid2"  style={{fontSize: 14, color: "black"}} > 
+          <div> <img src={require("./media/Screen Shot 2023-02-28 at 9.43.10 PM.png")} style={{height:200}}/></div>
+          <div><h3> Starting Off...</h3>
+          <p>I was very keen on exploring the world of computational neuroscience since high school, but it was towards the end of my freshman year where I 
+            decided to start exploring research opportunities. I began working for the <a href='https://www.bingbrunton.com/'> Brunton Lab  </a> in June of 2020. 
+          </p>
+          <p> With no prior research experience, my first task was to help out with data labeling. On the left is a screenshot of an audio file I was marking, to trace back specific timestamps
+            to neural data in order to decode the behavior of a subject at certain instances of the neural data.
+          </p>
+          </div>
+        </div>
+        </div>
+
+        <div className="blogpost"> 
+        <div className="bloggrid2"  style={{fontSize: 14, color: "black"}} > 
+          <div><h3> Lots of Reading... </h3>
+          <p>I spent the bulk of my junior year learning how to understand academic papers in the field of brain-computer interfaces, machine learning,
+            and neuroscience. Gathering context on the field in this way was important for me to devise a research proposal. By the end of my junior year,
+            I had established a proposal and experiment design. I submmitted <a href='https://drive.google.com/file/d/1x12r9ozgB31jpeIGtdyz-eB1XCKgf191/view?usp=sharing'> this proposal</a> to the Mary Gates Endowment for Students and won the Mary Gates
+            Research Scholarship Award. This scholarship funded my research over the summer. This is when I spent exploring a signal transformation pretext task design, where I 
+            trained a model to differentiate different signal mutations in hopes that it would learn about some global structures about the signals.
+          </p>
+          </div>
+          <div> <img src={require("./media/Screen Shot 2023-02-28 at 10.15.41 PM.png")} style={{height:300}}/></div>
+        </div>
+        </div>
+
+        <div className="blogpost"> 
+        <div className="bloggrid2"  style={{fontSize: 14, color: "black"}} > 
+          <div> <img src={require("./media/Screen Shot 2023-02-28 at 10.17.05 PM.png")} style={{height:200}}/></div>
+          <div><h3> A Contrastive Predictive Approach </h3>
+          <p> I decided to explore a more robust pretext task design. I found a novel technique called "Contrastive Predictive Coding" used in computer vision, and decided to apply 
+            the same logic to neural data. The University nominated me for the national Barry Goldwater Scholarship. You can read my Goldwater essay 
+            <a href='https://drive.google.com/file/d/169j8nUBffdE0u7DRJper0JqiYvyWIgB3/view?usp=sharing'> here</a>.
+          </p>
+          </div>
+        </div>
+        </div>
+
+        <div className="blogpost"> 
+        <div className="bloggrid2"  style={{fontSize: 14, color: "black"}} > 
+          <div><h3> Presenting at the UW Neural Computation and Engineering Connection 2022 </h3>
+          <p> I got to present the culmination of my findings at NCEC 2022!
+          </p>
+          </div>
+          <div> <img src={require("./media/NCEC.png")} style={{height:500}}/></div>
+        </div>
+        </div>
+        
+      </div>
       <div ref={lifeRef} id="life" className="big_moon_box"></div>
     </div>
     </div>
@@ -126,7 +189,7 @@ const paperstyle = { height: "100%", width: "514px", padding: "30px", color: "gr
 
 const Rome = () => {
   return (
-    <div style={card("1200px")}>
+    <div style={card("1250px")}>
       <Paper style={paperstyle}>
       <div> <h3>Travel Writing in Rome </h3> <h4> Fall 2019 </h4> 
         <img src={require("./media/Screen Shot 2023-02-27 at 2.35.45 AM.png")} style={{width:500}}/>
@@ -134,6 +197,15 @@ const Rome = () => {
         <img src={require("./media/Screen Shot 2023-02-27 at 2.33.19 AM.png")} style={{width:500}}/>
         <img src={require("./media/Screen Shot 2023-02-27 at 2.34.24 AM.png")} style={{width:500}}/>
         
+        <p> Read about my experiences in Rome: </p>
+        <a href='https://drive.google.com/file/d/1IEtdF-TzPGiByFxZmVje_b8dnj1XTcuB/view?usp=sharing'> 
+        ✎𓂃 A City That Won't Stop For Anyone ✎𓂃 </a>
+      <a href='https://drive.google.com/file/d/1oRGLbJnY51fWysEgIKZiZf104vlsiIUe/view?usp=sharing'> 
+      The Three Rules of the Flea Market ✎𓂃 </a>
+      <a href='https://drive.google.com/file/d/1UVuFXEMp2zh_ly1JQt2knEswfWCxRWzI/view?usp=sharing'>
+        When They Forced Me Into Battle ✎𓂃
+      </a>
+
 
       </Paper>
     </div>
@@ -179,8 +251,8 @@ const H212 = () => {
     <div style={card("2100px")}>
       <Paper style={paperstyle}>
       <div> <h3>The Middle East Depicted in Graphic Novels (Honors 212) </h3>  <h4> Spring 2020 </h4> 
-        <img src={require("./media/IMG_7503.jpg")} style={{width:500}}/>
         <img src={require("./media/IMG_7502[2786].jpg")} style={{width:500}}/>
+        <img src={require("./media/IMG_7503.jpg")} style={{width:500}}/>
           <p> This honors class was about how the middle east is shown in western media, and the roots of orientalism. Interweaving art, literature, and history alike, I was invited into an interdisciplinary curriculum that expanded my thinking of cultural zeitgeists birthed through the mediums we consume on a daily basis. 
             Here is an excerpt of an essay I wrote for the class on the importance of graphic novels in shaping our views of the Middle Eastern world:</p> 
             
@@ -239,7 +311,7 @@ const CSE340 = () => {
 
 const Prison = () => {
   return (
-    <div style={card("1200px")}>
+    <div style={card("1250px")}>
       <Paper style={paperstyle}>
       <div> <h3> Prison Systems (Honors 230)  </h3> <h4> Fall 2020 </h4> 
       <p> Honors 230 explored the American Prison Industrial Complex. In this class, I learned about the evolution of prison systems, how they impact communities today, and the influences of the political sphere. 
@@ -254,6 +326,9 @@ const Prison = () => {
       <audio controls="controls"> 
       <source src={require("./media/First Step Act Podcast (Final).mp3")} type="audio/mp3" /> 
       </audio>
+      <p> To read the script of this podcast with sources cited, click </p>
+      <a href='https://drive.google.com/file/d/1ZiqsP2WN-azvxiXwaOnijUiqfwicU2Of/view?usp=sharing'> 
+      here </a>
            </div></Paper>
     </div>
   );
@@ -261,7 +336,7 @@ const Prison = () => {
 
 const DXARTS200 = () => {
   return (
-    <div style={card("200px")}>
+    <div style={card("400px")}>
       <Paper style={paperstyle}>
       <div> <h3> Introduction to Digital Art & Experimental Media (DXARTS 200) </h3> <h4> Winter 2021 </h4> 
       <p> During the Winter Quarter of my Sophomore year, I was introduced to the new field of Experimental Media and I instantly fell in love.
@@ -269,6 +344,10 @@ const DXARTS200 = () => {
         I immidiately decided that I wanted to pursue the minor which was open to undergraduates. For the final report, I completed a proposal for a
         fictional project that would utilize concepts we had learned in class.
       </p>
+      
+      <a href='https://drive.google.com/file/d/1A5Nu0b7vrHHgHjJi6ZSJf643b01bAU15/view?usp=sharing'> 
+      Nobody: Virtual Reality Using Electroencephalography </a>
+      <img src={require("./media/dxarts200.png")} style={{width:500}}/>
            
            </div></Paper>
     </div>
@@ -297,6 +376,57 @@ const CSE446 = () => {
   );
 };
 
+const Story = () => {
+  return (
+    <div style={card("1950px")}>
+      <Paper style={paperstyle}>
+      <div> <h3> Storytelling in the Sciences (Honors 220) </h3> <h4> Fall 2021 </h4> 
+      <p> Storytelling in the Sciences was a class that taught me how to take complex and technical topics, and make them engaging and clear to common audiences. 
+        For this class, we were tasked with taking news from the science world that is often inaccessible to the general public, and re-formatting the content to fit 
+        a story, such that there is an incentive to learn and understand from any audience. One of the topics I explored in this class was gender-specific manifestations
+        of Attention Deficit Hyperactivity Disorder (ADHD). I combed through scientific papers and found case studies to build a persuasive story as to why the public should
+        care about this topic:
+      </p><img src={require("./media/adhd1.png")} style={{width:500}}/>
+      <img src={require("./media/adhd2.png")} style={{width:500}}/>
+      <img src={require("./media/adhd3.png")} style={{width:500}}/>
+      <img src={require("./media/adhd4.png")} style={{width:500}}/>
+      <img src={require("./media/adhd5.png")} style={{width:500}}/>
+      <img src={require("./media/adhd6.png")} style={{width:500}}/>
+           </div></Paper>
+    </div>
+  );
+};
+
+const Neural = () => {
+  return (
+    <div style={card("150px")}>
+      <Paper style={paperstyle}>
+      <div> <h3> Neural Engineering (BioEng 460) </h3> <h4> Fall 2021 </h4> 
+      <p> This class was imperative for my growth as a researcher. We learned how to do signal analysis on brain waves. For our final project, my team and I sought to explore music's impact on the brain: </p>
+      
+      <a href='https://drive.google.com/file/d/1A5Nu0b7vrHHgHjJi6ZSJf643b01bAU15/view?usp=sharing'> 
+      ♫⋆｡♪ ₊˚♬ ﾟ Music on the Brain ♫⋆｡♪ ₊˚♬ ﾟ </a>
+           
+           </div></Paper>
+    </div>
+  );
+};
+
+const CSE490 = () => {
+  return (
+    <div style={card("200px")}>
+      <Paper style={paperstyle}>
+      <div> <h3> Deep Learning (CSE490) </h3> <h4> Fall 2021 </h4> 
+      <p> 
+        This class deepened my knowledge on artificial neural networks through a variety of technical assignments and presentations. We were granted an open-ended final project assignment, so I used this as an opportunity to 
+        delve into predictive coding techniques used in self-supervised learning. You can visit the repository for this project here: 
+         </p>
+         <a href='https://github.com/ladybuglady/cse490g1_finalproject'> Project: Using Contrastive Predictive Coding for Self-Supervised Electrocorticography Decoding </a>
+      
+           </div></Paper>
+    </div>
+  );
+};
 
 
 

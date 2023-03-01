@@ -1,0 +1,20 @@
+.blogppost {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+  }
+  
+  .post-box {
+    height: 100;
+    width: 100%;
+    border: 10px solid #000;
+    animation: growBox 2s forwards;
+  }
+  
+  .bloggrid2 {
+    height: 100;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
