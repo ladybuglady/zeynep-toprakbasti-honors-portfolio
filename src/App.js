@@ -435,7 +435,7 @@ const CSE490 = () => {
       
            </div></Paper>
     </div>
-  );
+  );};
 
   const Disenchantment = () => {
     return (
@@ -450,7 +450,4 @@ const CSE490 = () => {
       </div>
     );
 };
-
-
-
 
