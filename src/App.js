@@ -440,10 +440,10 @@ const CSE490 = () => {
 
   const Disenchantment = () => {
     return (
-      <div style={card("200px")}>
+      <div style={card("400px")}>
         <Paper style={paperstyle}>
         <div> <h3> Disenchantment of the West: From Shakespeare to the Coen Brothers (Honors211) </h3> <h4> Winter 2023 </h4> 
-        <img src={"https://upload.wikimedia.org/wikipedia/en/0/01/The_master_and_his_emissary.jpg"} style={{width:500}}/>
+        <img src={"https://upload.wikimedia.org/wikipedia/en/0/01/The_master_and_his_emissary.jpg"} style={{width:150}}/>
         <p> 
           This is an Honors class that was very special to me, because it wrapped up my creative intuiitions from the beginning
           to the end. I learned to follow my heart in this class.  </p>
